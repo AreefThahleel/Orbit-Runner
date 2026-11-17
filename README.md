@@ -1,20 +1,30 @@
-# Orbit-Runner
-A tiny, self-contained cosmic arcade game. Steer your ship, collect glowing stardust, dodge asteroids, and try to beat your personal best.
+# ✦ Orbit Runner
 
-**Play:** open [`index.html`](index.html) in any modern browser. No build tools or dependencies are required.
+A tiny, self-contained cosmic arcade game. Pilot your ship, collect glowing stardust, dodge asteroids, and beat your personal best.
+
+## Play
+
+Download or clone this repository, then open **[index.html](index.html)** in a modern browser. There is no build step and no installation.
 
 ## Controls
 
 - **← / →** or **A / D** to steer
 - **Space** to pause
-- **Touch or drag** on the playfield on mobile
+- **Touch and drag** on the playfield on mobile
 
-Your high score is saved in your browser with `localStorage`. The game does not send score or player data anywhere.
+## Features
+
+- Responsive canvas gameplay for desktop and mobile
+- Personal best saved locally in your browser
+- Original canvas-drawn ship, stars, and asteroids
+- No account, tracking, or external game service
+
+The game stores only the high score in your browser using `localStorage`; it does not transmit score or player data.
 
 ## Customize
 
-Everything lives in `index.html`: layout, styling, artwork, and game logic. Tweak the colors in the `:root` variables or adjust asteroid speed in `spawnObject()`.
+Everything lives in `index.html`: layout, styling, artwork, and game logic. Adjust the colors in the CSS or tune object speeds in the script.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Released under the [MIT License](LICENSE).
